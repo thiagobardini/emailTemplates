@@ -1,0 +1,19 @@
+{
+  "name": "+64654",
+  "version": "1.0.0",
+  "description": "| ![](https://i.imgur.com/UiGdcau.png) Model #1 | ![](https://i.imgur.com/4nX0v5h.png) Model #2 | | --------------------------------------------- | --------------------------------------------- |",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagobardini/emailTemplates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagobardini/emailTemplates/issues"
+  },
+  "homepage": "https://github.com/thiagobardini/emailTemplates#readme"
+}
