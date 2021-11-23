@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>model3</title>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
       * {
         margin: 0;
@@ -14,7 +14,7 @@
         border: 0;
       }
       body {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Arvo', serif;
         max-width: 800px;
         background-color: #dbdcdf;
         margin: 0 auto;
@@ -28,7 +28,7 @@
         max-width: 100%;
       }
       #logo {
-        max-width: 200px;
+        max-width: 240px;
         float: left;
         padding: 3% 0 3% 3%;
       }
@@ -72,6 +72,28 @@
         line-height: 16px;
         color: #303030;
         padding-bottom: 3%;
+      }
+      @media screen and (max-width: 600px) {
+        header {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        #social {
+          width: 100%;
+        }
+        #social > li > a > img {
+          max-width: 30px;
+        }
+        h1 {
+          font-size: 1.5em;
+        }
+        p {
+          font-size: 1em;
+        }
+        .btn {
+          font-size: 0.8em;
+        }
       }
     </style>
   </head>
